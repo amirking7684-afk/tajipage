@@ -20,16 +20,16 @@ def run_flask():
 # ------------------ تنظیمات ربات ------------------
 api_id = 2040
 api_hash = "b18441a1ff607e10a989891a5462e627"
-source_channel = -1001092196973  # آیدی عددی کانال تلگرام
+source_channel = -1001159370620  # آیدی عددی کانال تلگرام
 target_channel = "c0ByOFi0bc53d8706298ebf89d6604ba"
 
 rb = RbClient("rubika_session")
 tg = TgClient("telegram_session", api_id=api_id, api_hash=api_hash)
 
 STATE_FILE = "last_tg_msg.json"
-REQUIRED_STRING = "🤩 @ADAK_IR"
-MY_TAG = "📲 @League_epror"
-FILTER_WORDS = ["بت", "Https", "بانو", "همسر", "رایگان"]
+REQUIRED_STRING = "@UltraTaji"
+MY_TAG = "ᯓ @havvadar_esteghlal 💙 ›'."
+FILTER_WORDS = ["بت", "Https", "بانو", "همسر ","سکس", "کص", "ننه", "مادر", "خار", "کیر", "کون", "خار", "ناموس", "کس", "گایید", "خواهر", "زن", "بگاد", "رایگان"]
 
 # ------------------ مدیریت وضعیت ------------------
 def load_last_id():
