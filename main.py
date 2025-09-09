@@ -21,7 +21,7 @@ def run_flask():
 api_id = 2040
 api_hash = "b18441a1ff607e10a989891a5462e627"
 source_channel = -1001159370620  # آیدی عددی کانال تلگرام
-target_channel = "c0ByOFi0bc53d8706298ebf89d6604ba"
+target_channel = "c0iP3b001050a088398cfef3adc5079d"
 
 rb = RbClient("rubika_session")
 tg = TgClient("telegram_session", api_id=api_id, api_hash=api_hash)
